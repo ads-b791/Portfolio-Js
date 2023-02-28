@@ -175,7 +175,26 @@ body._lock {
   line-height: 124.5%;
   margin-bottom: 65px;
   color: #E58D35;
+  display: inline-block;
 }
+@media (max-width: 1820px) {
+	.potrfolio__subtitle {
+	  font-size: calc(24px + 4 * (100vw - 320px) / 1500);
+	}
+ }
+.js{
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 124.5%;
+	margin-bottom: 65px;
+	color: #648d34;
+	margin-left: 20px;
+}
+@media (max-width: 1820px) {
+	.js {
+	  font-size: calc(24px + 4 * (100vw - 320px) / 1500);
+	}
+ }
 
 .swiper {
   min-width: 0;
@@ -270,6 +289,11 @@ body._lock {
   color: #648d34;
   cursor: pointer;
 }
+@media (max-width: 1820px) {
+	.item-slider__link {
+	  font-size: calc(20px + 4 * (100vw - 320px) / 1500);
+	}
+ }
 .item-slider__link:hover {
   text-decoration: underline;
 }
